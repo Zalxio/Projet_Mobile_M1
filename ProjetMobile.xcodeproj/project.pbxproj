@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		FC570489273A315A003640D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC570488273A315A003640D8 /* AppDelegate.swift */; };
 		FC57048B273A315A003640D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57048A273A315A003640D8 /* SceneDelegate.swift */; };
-		FC57048D273A315A003640D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57048C273A315A003640D8 /* ViewController.swift */; };
+		FC57048D273A315A003640D8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57048C273A315A003640D8 /* HomeVC.swift */; };
 		FC570490273A315A003640D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC57048E273A315A003640D8 /* Main.storyboard */; };
 		FC570492273A315C003640D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC570491273A315C003640D8 /* Assets.xcassets */; };
 		FC570495273A315C003640D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC570493273A315C003640D8 /* LaunchScreen.storyboard */; };
+		FC5704A1273A4332003640D8 /* QRcodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5704A0273A4332003640D8 /* QRcodeVC.swift */; };
+		FC5704A3273A434A003640D8 /* LabyrintheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5704A2273A434A003640D8 /* LabyrintheVC.swift */; };
+		FC5704A5273A43AE003640D8 /* ShakeMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5704A4273A43AE003640D8 /* ShakeMeVC.swift */; };
+		FC5704A7273A4783003640D8 /* LucioAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5704A6273A4783003640D8 /* LucioAI.swift */; };
+		FC5704AA273BD73C003640D8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5704A9273BD73C003640D8 /* CoreLocation.framework */; };
+		FC5704AC273E23C3003640D8 /* EnigmaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5704AB273E23C3003640D8 /* EnigmaVC.swift */; };
+		FCCB4F9E274CAF29007E1FF2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB4F9D274CAF29007E1FF2 /* TableViewCell.swift */; };
+		FCCB4FA1274CC829007E1FF2 /* Balle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB4FA0274CC829007E1FF2 /* Balle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC570485273A315A003640D8 /* ProjetMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC570488273A315A003640D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC57048A273A315A003640D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC57048C273A315A003640D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC57048C273A315A003640D8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		FC57048F273A315A003640D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC570491273A315C003640D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC570494273A315C003640D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC570496273A315C003640D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5704A0273A4332003640D8 /* QRcodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcodeVC.swift; sourceTree = "<group>"; };
+		FC5704A2273A434A003640D8 /* LabyrintheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabyrintheVC.swift; sourceTree = "<group>"; };
+		FC5704A4273A43AE003640D8 /* ShakeMeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeMeVC.swift; sourceTree = "<group>"; };
+		FC5704A6273A4783003640D8 /* LucioAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LucioAI.swift; sourceTree = "<group>"; };
+		FC5704A9273BD73C003640D8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC5704AB273E23C3003640D8 /* EnigmaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaVC.swift; sourceTree = "<group>"; };
+		FCCB4F9D274CAF29007E1FF2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FCCB4FA0274CC829007E1FF2 /* Balle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5704AA273BD73C003640D8 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,7 @@
 			children = (
 				FC570487273A315A003640D8 /* ProjetMobile */,
 				FC570486273A315A003640D8 /* Products */,
+				FC5704A8273BD73C003640D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,7 +94,12 @@
 		FC57049D273A31B1003640D8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FC57048C273A315A003640D8 /* ViewController.swift */,
+				FC57048C273A315A003640D8 /* HomeVC.swift */,
+				FC5704A0273A4332003640D8 /* QRcodeVC.swift */,
+				FC5704A2273A434A003640D8 /* LabyrintheVC.swift */,
+				FC5704A4273A43AE003640D8 /* ShakeMeVC.swift */,
+				FC5704AB273E23C3003640D8 /* EnigmaVC.swift */,
+				FCCB4F9D274CAF29007E1FF2 /* TableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -95,8 +118,26 @@
 		FC57049F273A3201003640D8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FCCB4F9F274CC7D3007E1FF2 /* Labyrinthe */,
+				FC5704A6273A4783003640D8 /* LucioAI.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FC5704A8273BD73C003640D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC5704A9273BD73C003640D8 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCCB4F9F274CC7D3007E1FF2 /* Labyrinthe */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB4FA0274CC829007E1FF2 /* Balle.swift */,
+			);
+			path = Labyrinthe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC57048D273A315A003640D8 /* ViewController.swift in Sources */,
+				FC5704A3273A434A003640D8 /* LabyrintheVC.swift in Sources */,
+				FC5704A5273A43AE003640D8 /* ShakeMeVC.swift in Sources */,
+				FC5704A1273A4332003640D8 /* QRcodeVC.swift in Sources */,
+				FCCB4F9E274CAF29007E1FF2 /* TableViewCell.swift in Sources */,
+				FCCB4FA1274CC829007E1FF2 /* Balle.swift in Sources */,
+				FC5704AC273E23C3003640D8 /* EnigmaVC.swift in Sources */,
+				FC57048D273A315A003640D8 /* HomeVC.swift in Sources */,
 				FC570489273A315A003640D8 /* AppDelegate.swift in Sources */,
 				FC57048B273A315A003640D8 /* SceneDelegate.swift in Sources */,
+				FC5704A7273A4783003640D8 /* LucioAI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
